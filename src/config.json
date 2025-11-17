@@ -1,6 +1,6 @@
 {
   "site": {
-    "url": "https://drowsyindra.github.io",
+    "url": "https://haolucky007.github.io",
     "title": "博客",
     "description": "这是一个有理想的人走过的漫长道路",
     "keywords": "Kunyi,blog,dream,indra,博客,逐梦",
@@ -9,31 +9,31 @@
     "appleTouchIcon": "/apple-touch-icon.png"
   },
   "author": {
-    "name": "Kunyi",
+    "name": "Haoyi",
     "twitterId": "@lxchapu",
     "avatar": "/img/avatar.jpg"
   },
   "hero": {
-    "name": "Kunyi",
+    "name": "Haoyi",
     "bio": "一个为理想痴狂实干的疯子",
-    "description": "理想是追随稚晖君,欢迎一同学习",
+    "description": "莫愁前路无知己，天下谁人不识君。",
     "socials": [
       {
         "name": "Github",
         "icon": "icon-github",
-        "url": "https://github.com/drowsyindra",
+        "url": "https://github.com/haolucky007",
         "color": "rgb(239, 70, 107)"
       },
       {
         "name": "bilibili",
         "icon": "icon-bilibili",
-        "url": "https://space.bilibili.com/3546706348084176",
+        "url": "https://space.bilibili.com/1722468192",
         "color": "rgb(245, 154, 155)"
       },
       {
         "name": "Email",
         "icon": "icon-mail",
-        "url": "mailto:1162137506@qq.com",
+        "url": "mailto:haolucky007@163.com",
         "color": "rgb(150, 215, 201)"
       },
       {
@@ -107,7 +107,7 @@
     "perPage": 10
   },
   "footer": {
-    "startTime": "2024-07-29T00:00:00Z"
+    "startTime": "2025-07-29T00:00:00Z"
   },
   "docSearch": {
     "appId": "",
