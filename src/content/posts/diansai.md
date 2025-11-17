@@ -5,6 +5,8 @@ summary: 电赛省赛
 category: 嵌入式系统
 tags: [比赛]
 comments: true
+author: Haoyi
+externalUrl: https://haolucky007.github.io/posts/diansai
 ---
 
 # 介绍
@@ -14,4 +16,5 @@ comments: true
 要求：态度认真，踏实肯干，不划水，能一起熬夜调试。
 团队现状：教资，师资，团队资源都有。（可提供项目）
 未来：无论拿没拿奖项对以后就业竞争力都有帮助。如果咱们团队相处很好还有可以更深的羁绊。
-联系方式：有意者可私聊我。（如果可以请发一下简历）
+联系方式Q：3409851319
+邮箱：haolucky007@163.com 有意者可私聊我。（如果可以请发一下简历）
