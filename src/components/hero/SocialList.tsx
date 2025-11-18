@@ -43,7 +43,11 @@ export function SocialList({ className }: { className?: string }) {
               <img
                 src={social.icon}
                 alt={social.name}
-                className={social.name === '嘉立创' || (social.icon && social.icon.includes('jialichuang')) ? 'w-7 h-7 object-contain' : 'w-6 h-6 object-contain'}
+                className={
+                  social.name === '嘉立创' || (social.icon && social.icon.includes('jialichuang'))
+                    ? 'w-8 h-8 object-cover rounded-full'
+                    : 'w-6 h-6 object-contain'
+                }
               />
             ) : (
               <i className={clsx('iconfont', social.icon)} />
