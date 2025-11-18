@@ -29,7 +29,7 @@ export function SocialList({ className }: { className?: string }) {
       {hero.socials.map((social) => (
         <motion.li key={social.name} variants={itemVariants}>
           <a
-            className="relative size-9 text-white text-xl flex justify-center items-center group"
+            className="relative size-9 text-white text-2xl flex justify-center items-center group"
             href={social.url}
             title={social.name}
             target="_blank"
@@ -39,9 +39,12 @@ export function SocialList({ className }: { className?: string }) {
               className="absolute inset-0 -z-1 rounded-full group-hover:scale-105 transition"
               style={{ backgroundColor: social.color }}
             ></span>
-            {typeof social.icon === 'string' && (\
-              social.icon.startsWith('/') || social.icon.startsWith('http')) ? (
-              <img src={social.icon} alt={social.name} className="w-5 h-5 object-contain" />
+            {typeof social.icon === 'string' && (social.icon.startsWith('/') || social.icon.startsWith('http')) ? (
+              <img
+                src={social.icon}
+                alt={social.name}
+                className={social.name === '嘉立创' || (social.icon && social.icon.includes('jialichuang')) ? 'w-7 h-7 object-contain' : 'w-6 h-6 object-contain'}
+              />
             ) : (
               <i className={clsx('iconfont', social.icon)} />
             )}
