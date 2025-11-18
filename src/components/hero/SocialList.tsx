@@ -39,7 +39,12 @@ export function SocialList({ className }: { className?: string }) {
               className="absolute inset-0 -z-1 rounded-full group-hover:scale-105 transition"
               style={{ backgroundColor: social.color }}
             ></span>
-            <i className={clsx('iconfont', social.icon)} />
+            {typeof social.icon === 'string' && (\
+              social.icon.startsWith('/') || social.icon.startsWith('http')) ? (
+              <img src={social.icon} alt={social.name} className="w-5 h-5 object-contain" />
+            ) : (
+              <i className={clsx('iconfont', social.icon)} />
+            )}
           </a>
         </motion.li>
       ))}

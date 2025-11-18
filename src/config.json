@@ -39,12 +39,12 @@
       {
         "name": "Zhihu",
         "icon": "icon-zhihu",
-        "url": "https://www.zhihu.com/people/wen-dao-81-2-70",
+        "url": "https://www.zhihu.com/people/zhe-yan-mou-ming-wei-xi-huan",
         "color": "rgb(42, 147, 213)"
       },
       {
-        "name": "X",
-        "icon": "icon-x",
+        "name": "嘉立创",
+        "icon": "/img/jialichuang.png",
         "url": "https://x.com/kunyi68226",
         "color": "rgb(106,90,205)"
       }
