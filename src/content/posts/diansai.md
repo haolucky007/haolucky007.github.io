@@ -1,5 +1,5 @@
 ---
-title: 2025电赛招聘队友
+title: 2026电赛招聘队友
 date: 2025-11-17
 summary: 电赛省赛
 category: 嵌入式系统
